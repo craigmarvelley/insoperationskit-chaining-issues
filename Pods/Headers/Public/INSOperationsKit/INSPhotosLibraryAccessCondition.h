@@ -1,0 +1,1 @@
+../../../INSOperationsKit/INSOperationsKit/iOS/Conditions/INSPhotosLibraryAccessCondition.h

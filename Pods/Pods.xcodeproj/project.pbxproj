@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0535E006FD561CE57EFFE21600DCF845 /* INSMutallyExclusiveCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = D528C1B79925F693091F4485B7B70EE7 /* INSMutallyExclusiveCondition.m */; };
+		06377DCAAD0C0A3FFE1A417A887E78F9 /* INSOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 30673A49752B2775EF5CD74F4F18902C /* INSOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		075BDEFA6A2A246E98828F796107DCB2 /* INSChainableOperationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CC7832FA1ED1EFD79E2D691B32FA99 /* INSChainableOperationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09A8E37E78570DE3033ACBA5A7CBB217 /* INSChainOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D27C07A38BEED61BEA3E94BB5A0708D5 /* INSChainOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12F87D17E23E65D6BA028A98182254F8 /* INSOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B32707D74D8AB077B1B192587803989A /* INSOperationQueue.m */; };
+		135D138BAC4D063FA2746D83710E5340 /* INSMutallyExclusiveCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 73092FCFA7CCB6174A8BB8818EF2491F /* INSMutallyExclusiveCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1797D4EF573B1BB8A91464F657FFB597 /* INSTimeoutObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B5319A169D9F5948E00E18B50003DE /* INSTimeoutObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19278445C9E60C086C9670EA79ADBFEF /* INSBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3069CA089380974480CA15840884A237 /* INSBlockOperation.m */; };
+		193E35B127CAAB5D3C67AE0402BBEF94 /* INSOperationObserverProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B3281A005B9566CADED7613C47331037 /* INSOperationObserverProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		222E2310D09AE496BECC58ED9CC00E5B /* INSNoCancelledDependenciesCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = F763BDD2ECDD064960F5BE9160234C88 /* INSNoCancelledDependenciesCondition.m */; };
+		22AD6E6777E5F91D0AB62B60A5D1F5A0 /* INSBlockOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B107919ACCFCB9CFB189DA76D6FD79AF /* INSBlockOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25D4D0ABCB000FF4134A873A92658913 /* INSOperationsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B58097D6BCCCF92FB5C3CBC1C80F2635 /* INSOperationsKit-dummy.m */; };
+		2615692A89C6099D5AC068EBD0C92821 /* INSBlockObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8E9B02E5FC564D8BB11330C3B5B50E /* INSBlockObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2775328E186079780EC20695980AD56B /* INSReachabilityCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F4D6E525E35343653D23DE11B473E1 /* INSReachabilityCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E97A03B87C588E4F562C40BD6A1D09D /* INSNoCancelledDependenciesCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C8910469FA965116C773537B18FAFA /* INSNoCancelledDependenciesCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32A45CB415BC0F48976AB2588C070302 /* INSOperationConditionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C373DB036C94B1B21ABE87D85C49BE /* INSOperationConditionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3848B073218466B9A82C4C6D4662D810 /* INSURLSessionTaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB87608C04C9221383D6E919C7EA05E /* INSURLSessionTaskOperation.m */; };
+		38EAE97F83594D61A55CA27C0056D963 /* INSReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE4C45FE6FB988CCD0E8168986748459 /* INSReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3951BD5508250B8AA6FD61B215706923 /* INSChainCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7317F3B621595657101C3C10FCDD30C4 /* INSChainCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40577A76E3C96FE9999EAF36B2E54A46 /* INSOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E45B7F03BBD13BA57981E45C74A126 /* INSOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6425018E35CD04B7C45E798B84FED1A0 /* INSChainOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E12045C4A6FD4B751E847C95A3F9C1B0 /* INSChainOperation.m */; };
+		65E58CBBD143F43D5F9AC886D5EB1C2E /* NSOperation+INSOperationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B62EF259A9A168C4031AEA91227A2DD /* NSOperation+INSOperationKit.m */; };
+		6D29FCF2DB611AF1D255B5232E01D2B9 /* INSChainCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E681AD591B52BC6BA9B326D1CC01F9 /* INSChainCondition.m */; };
+		6DFFBAF0C39E17BE58833015CFE6F497 /* INSSilientCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 06495D74168852C34879B582B1DE49AB /* INSSilientCondition.m */; };
+		71D24EB5156700F3FF5F4CB356661802 /* INSExclusivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CD135052716E7422C14CA7C20C1919 /* INSExclusivityController.m */; };
+		79D40281FFF936EE12CA261574655581 /* NSError+INSOperationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D557BA06A5B1D4C4051D77AA4E3D5FFD /* NSError+INSOperationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A1622DB449085546941637592CA054E /* INSExclusivityController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9551733D8292A2055AF72E8BF15ECD93 /* INSExclusivityController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4BC1AEC67DD105C1838BC13BDBD509 /* INSReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0290AA150E83FBA19D25B3B8D247BE66 /* INSReachabilityManager.m */; };
+		839DA86E3998DA7C2C5B4C3CD0FA15BE /* INSDelayOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FAF2E70594025C57DD9227E1A3A0638 /* INSDelayOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		884BAB64CBFB12CCA5278F864F78B513 /* NSOperation+INSOperationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C4F345260CA083750915919DBF0180 /* NSOperation+INSOperationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D068A72E094A4A56171CBBD69E8760 /* INSOperationsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BE8871327264EACE4A04AFA75C513D /* INSOperationsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3C3385AA641355944E62EC07ED1B10 /* INSPhotosLibraryAccessCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 616D27FE9BBF149D5F0BB65C8A35B54B /* INSPhotosLibraryAccessCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF2A3C30785082609824C8EFAE27466 /* INSOperationConditionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A86128BB4A52D3FCA36EE65DC338C /* INSOperationConditionResult.m */; };
+		9E96DECCD6108D28492401B548845218 /* INSURLSessionTaskOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2187BA3A335846D3DC20B576D55EC239 /* INSURLSessionTaskOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A042A0647E05DC43795106848B17B2D3 /* INSGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D8CD4924E719BF6E26C963A13D2CFA /* INSGroupOperation.m */; };
+		B58497ACB186DEA31FF60DE34569FA5E /* INSPhotosLibraryAccessOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D142F3F08635DEF0E64CAB746D755C /* INSPhotosLibraryAccessOperation.m */; };
+		B5BCAD4FDED714163822999420F2A955 /* INSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD8436877B24CE14801F94730BFE891 /* INSOperation.m */; };
+		B66C7FDF39B59C8C2C54EE946E721BAC /* INSTimeoutObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58F6962A3361BD69795AAA1B183840 /* INSTimeoutObserver.m */; };
+		B7C8882F719D0C45F0B222ABBCF28DEF /* INSDelayOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18876F607BE7DA6C314BD491E6AAEC6A /* INSDelayOperation.m */; };
+		BE1C161612C0D845ABAB0DFE5A1F7C5A /* INSReachabilityCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEAAD2B11F5DA3D04B4AC8C03CA82CE /* INSReachabilityCondition.m */; };
+		C2EE86B28A4B03FFC43D1BA7710B4C2A /* INSPhotosLibraryAccessCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFB0BE05997F94D5730807847455CF2 /* INSPhotosLibraryAccessCondition.m */; };
+		CBF0DD882479032C7747BA9331E54959 /* INSSilientCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B921A2F6D059C7CCC71857E8ED8964C /* INSSilientCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5CF5BD0B5DC15792C0F6E36D2B49A3B /* INSOperationConditionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = CA78AB48A897C824B3494EC842EE94EA /* INSOperationConditionResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5EB11BE7EA045C8A7546214CB053B07 /* Pods-insoperation-chaining-issues-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD44C13ED17DBE6620DD2EC769A1E47B /* Pods-insoperation-chaining-issues-dummy.m */; };
+		DB4C3D59A3719C42E3F6F3972FB15B02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		E35DE49AE8B40C68AB48ED18D6F9ECB3 /* INSPhotosLibraryAccessOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8D651F3376A6772B1E21942E4AFDD2 /* INSPhotosLibraryAccessOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC051ECCCABAD965DA9629F026EA0974 /* INSGroupOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = ED05EC8DEB93C2029A927A1E0E277F3F /* INSGroupOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4994B2768BD577EE64D2D49E3F1298A /* INSNegatedCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C69DD0BE1E181A72A5DE3A39A00E24 /* INSNegatedCondition.m */; };
+		F8649743835E5EE143E65010CC41E8B1 /* INSNegatedCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF035A71EC7D2FE691E2226267BB3B0 /* INSNegatedCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8FFCEC00261DCB8858702119329331E /* NSError+INSOperationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5E9DA6D68066582E6B6A9959331090 /* NSError+INSOperationKit.m */; };
+		FC98CB58B050565D138EAB8D0C0BDB18 /* INSBlockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCD582993A8E698EE9300A8B7E931D7 /* INSBlockObserver.m */; };
+		FFE14757CCE8BBD14C17AC41E05F9B66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBEC11FE501319CD1AE385EF0C288755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 487D4A2C1C013454987D6CEA82DD3657;
+			remoteInfo = INSOperationsKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0043C222D3FB10AA4D847488E7316624 /* libPods-insoperation-chaining-issues.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-insoperation-chaining-issues.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0290AA150E83FBA19D25B3B8D247BE66 /* INSReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSReachabilityManager.m; path = INSOperationsKit/Shared/Others/INSReachabilityManager.m; sourceTree = "<group>"; };
+		06495D74168852C34879B582B1DE49AB /* INSSilientCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSSilientCondition.m; path = INSOperationsKit/Shared/Conditions/INSSilientCondition.m; sourceTree = "<group>"; };
+		079DD63823E318AA9E8B389FD30847F8 /* INSOperationsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = INSOperationsKit.xcconfig; sourceTree = "<group>"; };
+		0C4299D5C583BDF6B23D1A436A36330F /* Pods-insoperation-chaining-issues-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-insoperation-chaining-issues-resources.sh"; sourceTree = "<group>"; };
+		0FA022463756E52B016F7DAF70DC53C8 /* INSOperationsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSOperationsKit-prefix.pch"; sourceTree = "<group>"; };
+		0FAF2E70594025C57DD9227E1A3A0638 /* INSDelayOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSDelayOperation.h; path = INSOperationsKit/Shared/Operations/INSDelayOperation.h; sourceTree = "<group>"; };
+		16CC7832FA1ED1EFD79E2D691B32FA99 /* INSChainableOperationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSChainableOperationProtocol.h; path = INSOperationsKit/Shared/Operations/INSChainableOperationProtocol.h; sourceTree = "<group>"; };
+		16D142F3F08635DEF0E64CAB746D755C /* INSPhotosLibraryAccessOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSPhotosLibraryAccessOperation.m; path = INSOperationsKit/iOS/Operations/INSPhotosLibraryAccessOperation.m; sourceTree = "<group>"; };
+		18876F607BE7DA6C314BD491E6AAEC6A /* INSDelayOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSDelayOperation.m; path = INSOperationsKit/Shared/Operations/INSDelayOperation.m; sourceTree = "<group>"; };
+		2187BA3A335846D3DC20B576D55EC239 /* INSURLSessionTaskOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSURLSessionTaskOperation.h; path = INSOperationsKit/Shared/Operations/INSURLSessionTaskOperation.h; sourceTree = "<group>"; };
+		2607A3386BBF4424E549DCB9A247A32E /* Pods-insoperation-chaining-issues.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-insoperation-chaining-issues.debug.xcconfig"; sourceTree = "<group>"; };
+		26E681AD591B52BC6BA9B326D1CC01F9 /* INSChainCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSChainCondition.m; path = INSOperationsKit/Shared/Conditions/INSChainCondition.m; sourceTree = "<group>"; };
+		28C373DB036C94B1B21ABE87D85C49BE /* INSOperationConditionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSOperationConditionProtocol.h; path = INSOperationsKit/Shared/Conditions/INSOperationConditionProtocol.h; sourceTree = "<group>"; };
+		2A6A86128BB4A52D3FCA36EE65DC338C /* INSOperationConditionResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSOperationConditionResult.m; path = INSOperationsKit/Shared/Conditions/INSOperationConditionResult.m; sourceTree = "<group>"; };
+		2B8E9B02E5FC564D8BB11330C3B5B50E /* INSBlockObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSBlockObserver.h; path = INSOperationsKit/Shared/Observers/INSBlockObserver.h; sourceTree = "<group>"; };
+		30673A49752B2775EF5CD74F4F18902C /* INSOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSOperation.h; path = INSOperationsKit/Shared/Operations/INSOperation.h; sourceTree = "<group>"; };
+		3069CA089380974480CA15840884A237 /* INSBlockOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSBlockOperation.m; path = INSOperationsKit/Shared/Operations/INSBlockOperation.m; sourceTree = "<group>"; };
+		34D8CD4924E719BF6E26C963A13D2CFA /* INSGroupOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSGroupOperation.m; path = INSOperationsKit/Shared/Operations/INSGroupOperation.m; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CF035A71EC7D2FE691E2226267BB3B0 /* INSNegatedCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSNegatedCondition.h; path = INSOperationsKit/Shared/Conditions/INSNegatedCondition.h; sourceTree = "<group>"; };
+		4B62EF259A9A168C4031AEA91227A2DD /* NSOperation+INSOperationKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSOperation+INSOperationKit.m"; path = "INSOperationsKit/Shared/Operations/NSOperation+INSOperationKit.m"; sourceTree = "<group>"; };
+		54B5319A169D9F5948E00E18B50003DE /* INSTimeoutObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSTimeoutObserver.h; path = INSOperationsKit/Shared/Observers/INSTimeoutObserver.h; sourceTree = "<group>"; };
+		55546215A2899B917634F656FAAFEB5F /* Pods-insoperation-chaining-issues-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-insoperation-chaining-issues-acknowledgements.markdown"; sourceTree = "<group>"; };
+		616D27FE9BBF149D5F0BB65C8A35B54B /* INSPhotosLibraryAccessCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSPhotosLibraryAccessCondition.h; path = INSOperationsKit/iOS/Conditions/INSPhotosLibraryAccessCondition.h; sourceTree = "<group>"; };
+		6B921A2F6D059C7CCC71857E8ED8964C /* INSSilientCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSSilientCondition.h; path = INSOperationsKit/Shared/Conditions/INSSilientCondition.h; sourceTree = "<group>"; };
+		6BD8436877B24CE14801F94730BFE891 /* INSOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSOperation.m; path = INSOperationsKit/Shared/Operations/INSOperation.m; sourceTree = "<group>"; };
+		73092FCFA7CCB6174A8BB8818EF2491F /* INSMutallyExclusiveCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSMutallyExclusiveCondition.h; path = INSOperationsKit/Shared/Conditions/INSMutallyExclusiveCondition.h; sourceTree = "<group>"; };
+		7317F3B621595657101C3C10FCDD30C4 /* INSChainCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSChainCondition.h; path = INSOperationsKit/Shared/Conditions/INSChainCondition.h; sourceTree = "<group>"; };
+		74F4D6E525E35343653D23DE11B473E1 /* INSReachabilityCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSReachabilityCondition.h; path = INSOperationsKit/Shared/Conditions/INSReachabilityCondition.h; sourceTree = "<group>"; };
+		8585B68FE70323F4F752D869BC026981 /* libINSOperationsKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libINSOperationsKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C69DD0BE1E181A72A5DE3A39A00E24 /* INSNegatedCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSNegatedCondition.m; path = INSOperationsKit/Shared/Conditions/INSNegatedCondition.m; sourceTree = "<group>"; };
+		9551733D8292A2055AF72E8BF15ECD93 /* INSExclusivityController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSExclusivityController.h; path = "INSOperationsKit/Shared/Operation Queue/INSExclusivityController.h"; sourceTree = "<group>"; };
+		A49595395A51A2EECDD27F9B144A5140 /* Pods-insoperation-chaining-issues.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-insoperation-chaining-issues.release.xcconfig"; sourceTree = "<group>"; };
+		A5C4F345260CA083750915919DBF0180 /* NSOperation+INSOperationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOperation+INSOperationKit.h"; path = "INSOperationsKit/Shared/Operations/NSOperation+INSOperationKit.h"; sourceTree = "<group>"; };
+		AC8D651F3376A6772B1E21942E4AFDD2 /* INSPhotosLibraryAccessOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSPhotosLibraryAccessOperation.h; path = INSOperationsKit/iOS/Operations/INSPhotosLibraryAccessOperation.h; sourceTree = "<group>"; };
+		B107919ACCFCB9CFB189DA76D6FD79AF /* INSBlockOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSBlockOperation.h; path = INSOperationsKit/Shared/Operations/INSBlockOperation.h; sourceTree = "<group>"; };
+		B32707D74D8AB077B1B192587803989A /* INSOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSOperationQueue.m; path = "INSOperationsKit/Shared/Operation Queue/INSOperationQueue.m"; sourceTree = "<group>"; };
+		B3281A005B9566CADED7613C47331037 /* INSOperationObserverProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSOperationObserverProtocol.h; path = INSOperationsKit/Shared/Observers/INSOperationObserverProtocol.h; sourceTree = "<group>"; };
+		B58097D6BCCCF92FB5C3CBC1C80F2635 /* INSOperationsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INSOperationsKit-dummy.m"; sourceTree = "<group>"; };
+		B74FF852F30AF81314E1495D81F131CA /* Pods-insoperation-chaining-issues-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-insoperation-chaining-issues-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDFB0BE05997F94D5730807847455CF2 /* INSPhotosLibraryAccessCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSPhotosLibraryAccessCondition.m; path = INSOperationsKit/iOS/Conditions/INSPhotosLibraryAccessCondition.m; sourceTree = "<group>"; };
+		C077A903D6B164879C295C62F924E0C5 /* Pods-insoperation-chaining-issues-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-insoperation-chaining-issues-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9E45B7F03BBD13BA57981E45C74A126 /* INSOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSOperationQueue.h; path = "INSOperationsKit/Shared/Operation Queue/INSOperationQueue.h"; sourceTree = "<group>"; };
+		CA78AB48A897C824B3494EC842EE94EA /* INSOperationConditionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSOperationConditionResult.h; path = INSOperationsKit/Shared/Conditions/INSOperationConditionResult.h; sourceTree = "<group>"; };
+		D1CD135052716E7422C14CA7C20C1919 /* INSExclusivityController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSExclusivityController.m; path = "INSOperationsKit/Shared/Operation Queue/INSExclusivityController.m"; sourceTree = "<group>"; };
+		D27C07A38BEED61BEA3E94BB5A0708D5 /* INSChainOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSChainOperation.h; path = INSOperationsKit/Shared/Operations/INSChainOperation.h; sourceTree = "<group>"; };
+		D528C1B79925F693091F4485B7B70EE7 /* INSMutallyExclusiveCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSMutallyExclusiveCondition.m; path = INSOperationsKit/Shared/Conditions/INSMutallyExclusiveCondition.m; sourceTree = "<group>"; };
+		D557BA06A5B1D4C4051D77AA4E3D5FFD /* NSError+INSOperationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+INSOperationKit.h"; path = "INSOperationsKit/Shared/Others/NSError+INSOperationKit.h"; sourceTree = "<group>"; };
+		DBEAAD2B11F5DA3D04B4AC8C03CA82CE /* INSReachabilityCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSReachabilityCondition.m; path = INSOperationsKit/Shared/Conditions/INSReachabilityCondition.m; sourceTree = "<group>"; };
+		DD58F6962A3361BD69795AAA1B183840 /* INSTimeoutObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSTimeoutObserver.m; path = INSOperationsKit/Shared/Observers/INSTimeoutObserver.m; sourceTree = "<group>"; };
+		E0C8910469FA965116C773537B18FAFA /* INSNoCancelledDependenciesCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSNoCancelledDependenciesCondition.h; path = INSOperationsKit/Shared/Conditions/INSNoCancelledDependenciesCondition.h; sourceTree = "<group>"; };
+		E12045C4A6FD4B751E847C95A3F9C1B0 /* INSChainOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSChainOperation.m; path = INSOperationsKit/Shared/Operations/INSChainOperation.m; sourceTree = "<group>"; };
+		ECCD582993A8E698EE9300A8B7E931D7 /* INSBlockObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSBlockObserver.m; path = INSOperationsKit/Shared/Observers/INSBlockObserver.m; sourceTree = "<group>"; };
+		ED05EC8DEB93C2029A927A1E0E277F3F /* INSGroupOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSGroupOperation.h; path = INSOperationsKit/Shared/Operations/INSGroupOperation.h; sourceTree = "<group>"; };
+		EE4C45FE6FB988CCD0E8168986748459 /* INSReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSReachabilityManager.h; path = INSOperationsKit/Shared/Others/INSReachabilityManager.h; sourceTree = "<group>"; };
+		EE5E9DA6D68066582E6B6A9959331090 /* NSError+INSOperationKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+INSOperationKit.m"; path = "INSOperationsKit/Shared/Others/NSError+INSOperationKit.m"; sourceTree = "<group>"; };
+		F763BDD2ECDD064960F5BE9160234C88 /* INSNoCancelledDependenciesCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSNoCancelledDependenciesCondition.m; path = INSOperationsKit/Shared/Conditions/INSNoCancelledDependenciesCondition.m; sourceTree = "<group>"; };
+		F9BE8871327264EACE4A04AFA75C513D /* INSOperationsKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSOperationsKit.h; path = INSOperationsKit/INSOperationsKit.h; sourceTree = "<group>"; };
+		FD44C13ED17DBE6620DD2EC769A1E47B /* Pods-insoperation-chaining-issues-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-insoperation-chaining-issues-dummy.m"; sourceTree = "<group>"; };
+		FDB87608C04C9221383D6E919C7EA05E /* INSURLSessionTaskOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSURLSessionTaskOperation.m; path = INSOperationsKit/Shared/Operations/INSURLSessionTaskOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F93184E4A90893BDF36F3F7FDF565C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE14757CCE8BBD14C17AC41E05F9B66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9F939C9EE1E5DA44BD04DDBBDAF32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4C3D59A3719C42E3F6F3972FB15B02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41227238F89B2D55E788F59E72480A0F /* INSOperationsKit */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E9B02E5FC564D8BB11330C3B5B50E /* INSBlockObserver.h */,
+				ECCD582993A8E698EE9300A8B7E931D7 /* INSBlockObserver.m */,
+				B107919ACCFCB9CFB189DA76D6FD79AF /* INSBlockOperation.h */,
+				3069CA089380974480CA15840884A237 /* INSBlockOperation.m */,
+				16CC7832FA1ED1EFD79E2D691B32FA99 /* INSChainableOperationProtocol.h */,
+				7317F3B621595657101C3C10FCDD30C4 /* INSChainCondition.h */,
+				26E681AD591B52BC6BA9B326D1CC01F9 /* INSChainCondition.m */,
+				D27C07A38BEED61BEA3E94BB5A0708D5 /* INSChainOperation.h */,
+				E12045C4A6FD4B751E847C95A3F9C1B0 /* INSChainOperation.m */,
+				0FAF2E70594025C57DD9227E1A3A0638 /* INSDelayOperation.h */,
+				18876F607BE7DA6C314BD491E6AAEC6A /* INSDelayOperation.m */,
+				9551733D8292A2055AF72E8BF15ECD93 /* INSExclusivityController.h */,
+				D1CD135052716E7422C14CA7C20C1919 /* INSExclusivityController.m */,
+				ED05EC8DEB93C2029A927A1E0E277F3F /* INSGroupOperation.h */,
+				34D8CD4924E719BF6E26C963A13D2CFA /* INSGroupOperation.m */,
+				73092FCFA7CCB6174A8BB8818EF2491F /* INSMutallyExclusiveCondition.h */,
+				D528C1B79925F693091F4485B7B70EE7 /* INSMutallyExclusiveCondition.m */,
+				3CF035A71EC7D2FE691E2226267BB3B0 /* INSNegatedCondition.h */,
+				90C69DD0BE1E181A72A5DE3A39A00E24 /* INSNegatedCondition.m */,
+				E0C8910469FA965116C773537B18FAFA /* INSNoCancelledDependenciesCondition.h */,
+				F763BDD2ECDD064960F5BE9160234C88 /* INSNoCancelledDependenciesCondition.m */,
+				30673A49752B2775EF5CD74F4F18902C /* INSOperation.h */,
+				6BD8436877B24CE14801F94730BFE891 /* INSOperation.m */,
+				28C373DB036C94B1B21ABE87D85C49BE /* INSOperationConditionProtocol.h */,
+				CA78AB48A897C824B3494EC842EE94EA /* INSOperationConditionResult.h */,
+				2A6A86128BB4A52D3FCA36EE65DC338C /* INSOperationConditionResult.m */,
+				B3281A005B9566CADED7613C47331037 /* INSOperationObserverProtocol.h */,
+				C9E45B7F03BBD13BA57981E45C74A126 /* INSOperationQueue.h */,
+				B32707D74D8AB077B1B192587803989A /* INSOperationQueue.m */,
+				F9BE8871327264EACE4A04AFA75C513D /* INSOperationsKit.h */,
+				616D27FE9BBF149D5F0BB65C8A35B54B /* INSPhotosLibraryAccessCondition.h */,
+				BDFB0BE05997F94D5730807847455CF2 /* INSPhotosLibraryAccessCondition.m */,
+				AC8D651F3376A6772B1E21942E4AFDD2 /* INSPhotosLibraryAccessOperation.h */,
+				16D142F3F08635DEF0E64CAB746D755C /* INSPhotosLibraryAccessOperation.m */,
+				74F4D6E525E35343653D23DE11B473E1 /* INSReachabilityCondition.h */,
+				DBEAAD2B11F5DA3D04B4AC8C03CA82CE /* INSReachabilityCondition.m */,
+				EE4C45FE6FB988CCD0E8168986748459 /* INSReachabilityManager.h */,
+				0290AA150E83FBA19D25B3B8D247BE66 /* INSReachabilityManager.m */,
+				6B921A2F6D059C7CCC71857E8ED8964C /* INSSilientCondition.h */,
+				06495D74168852C34879B582B1DE49AB /* INSSilientCondition.m */,
+				54B5319A169D9F5948E00E18B50003DE /* INSTimeoutObserver.h */,
+				DD58F6962A3361BD69795AAA1B183840 /* INSTimeoutObserver.m */,
+				2187BA3A335846D3DC20B576D55EC239 /* INSURLSessionTaskOperation.h */,
+				FDB87608C04C9221383D6E919C7EA05E /* INSURLSessionTaskOperation.m */,
+				D557BA06A5B1D4C4051D77AA4E3D5FFD /* NSError+INSOperationKit.h */,
+				EE5E9DA6D68066582E6B6A9959331090 /* NSError+INSOperationKit.m */,
+				A5C4F345260CA083750915919DBF0180 /* NSOperation+INSOperationKit.h */,
+				4B62EF259A9A168C4031AEA91227A2DD /* NSOperation+INSOperationKit.m */,
+				D3934859938E974D5B68606C4D5BA900 /* Support Files */,
+			);
+			path = INSOperationsKit;
+			sourceTree = "<group>";
+		};
+		5E786974B3DD09C8D0A2D497BC3DEDA7 /* Pods-insoperation-chaining-issues */ = {
+			isa = PBXGroup;
+			children = (
+				55546215A2899B917634F656FAAFEB5F /* Pods-insoperation-chaining-issues-acknowledgements.markdown */,
+				C077A903D6B164879C295C62F924E0C5 /* Pods-insoperation-chaining-issues-acknowledgements.plist */,
+				FD44C13ED17DBE6620DD2EC769A1E47B /* Pods-insoperation-chaining-issues-dummy.m */,
+				B74FF852F30AF81314E1495D81F131CA /* Pods-insoperation-chaining-issues-frameworks.sh */,
+				0C4299D5C583BDF6B23D1A436A36330F /* Pods-insoperation-chaining-issues-resources.sh */,
+				2607A3386BBF4424E549DCB9A247A32E /* Pods-insoperation-chaining-issues.debug.xcconfig */,
+				A49595395A51A2EECDD27F9B144A5140 /* Pods-insoperation-chaining-issues.release.xcconfig */,
+			);
+			name = "Pods-insoperation-chaining-issues";
+			path = "Target Support Files/Pods-insoperation-chaining-issues";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F27D56FBB313CBB316B7C39681FBCB76 /* Pods */,
+				946605E00F4CC40AD200CCE711D6B6DA /* Products */,
+				FAF25E98CC17894FE4856CB74E216985 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		946605E00F4CC40AD200CCE711D6B6DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8585B68FE70323F4F752D869BC026981 /* libINSOperationsKit.a */,
+				0043C222D3FB10AA4D847488E7316624 /* libPods-insoperation-chaining-issues.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3934859938E974D5B68606C4D5BA900 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				079DD63823E318AA9E8B389FD30847F8 /* INSOperationsKit.xcconfig */,
+				B58097D6BCCCF92FB5C3CBC1C80F2635 /* INSOperationsKit-dummy.m */,
+				0FA022463756E52B016F7DAF70DC53C8 /* INSOperationsKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/INSOperationsKit";
+			sourceTree = "<group>";
+		};
+		F27D56FBB313CBB316B7C39681FBCB76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41227238F89B2D55E788F59E72480A0F /* INSOperationsKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAF25E98CC17894FE4856CB74E216985 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E786974B3DD09C8D0A2D497BC3DEDA7 /* Pods-insoperation-chaining-issues */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		465C4F10FBCDBFC2F5C82002139FF5EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2615692A89C6099D5AC068EBD0C92821 /* INSBlockObserver.h in Headers */,
+				22AD6E6777E5F91D0AB62B60A5D1F5A0 /* INSBlockOperation.h in Headers */,
+				075BDEFA6A2A246E98828F796107DCB2 /* INSChainableOperationProtocol.h in Headers */,
+				3951BD5508250B8AA6FD61B215706923 /* INSChainCondition.h in Headers */,
+				09A8E37E78570DE3033ACBA5A7CBB217 /* INSChainOperation.h in Headers */,
+				839DA86E3998DA7C2C5B4C3CD0FA15BE /* INSDelayOperation.h in Headers */,
+				7A1622DB449085546941637592CA054E /* INSExclusivityController.h in Headers */,
+				EC051ECCCABAD965DA9629F026EA0974 /* INSGroupOperation.h in Headers */,
+				135D138BAC4D063FA2746D83710E5340 /* INSMutallyExclusiveCondition.h in Headers */,
+				F8649743835E5EE143E65010CC41E8B1 /* INSNegatedCondition.h in Headers */,
+				2E97A03B87C588E4F562C40BD6A1D09D /* INSNoCancelledDependenciesCondition.h in Headers */,
+				06377DCAAD0C0A3FFE1A417A887E78F9 /* INSOperation.h in Headers */,
+				32A45CB415BC0F48976AB2588C070302 /* INSOperationConditionProtocol.h in Headers */,
+				D5CF5BD0B5DC15792C0F6E36D2B49A3B /* INSOperationConditionResult.h in Headers */,
+				193E35B127CAAB5D3C67AE0402BBEF94 /* INSOperationObserverProtocol.h in Headers */,
+				40577A76E3C96FE9999EAF36B2E54A46 /* INSOperationQueue.h in Headers */,
+				91D068A72E094A4A56171CBBD69E8760 /* INSOperationsKit.h in Headers */,
+				9D3C3385AA641355944E62EC07ED1B10 /* INSPhotosLibraryAccessCondition.h in Headers */,
+				E35DE49AE8B40C68AB48ED18D6F9ECB3 /* INSPhotosLibraryAccessOperation.h in Headers */,
+				2775328E186079780EC20695980AD56B /* INSReachabilityCondition.h in Headers */,
+				38EAE97F83594D61A55CA27C0056D963 /* INSReachabilityManager.h in Headers */,
+				CBF0DD882479032C7747BA9331E54959 /* INSSilientCondition.h in Headers */,
+				1797D4EF573B1BB8A91464F657FFB597 /* INSTimeoutObserver.h in Headers */,
+				9E96DECCD6108D28492401B548845218 /* INSURLSessionTaskOperation.h in Headers */,
+				79D40281FFF936EE12CA261574655581 /* NSError+INSOperationKit.h in Headers */,
+				884BAB64CBFB12CCA5278F864F78B513 /* NSOperation+INSOperationKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		487D4A2C1C013454987D6CEA82DD3657 /* INSOperationsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305E8390679998375684CAB3A9FABD52 /* Build configuration list for PBXNativeTarget "INSOperationsKit" */;
+			buildPhases = (
+				EE1B5237365F82C22CD0FC126E4A681E /* Sources */,
+				DD9F939C9EE1E5DA44BD04DDBBDAF32D /* Frameworks */,
+				465C4F10FBCDBFC2F5C82002139FF5EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INSOperationsKit;
+			productName = INSOperationsKit;
+			productReference = 8585B68FE70323F4F752D869BC026981 /* libINSOperationsKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D61994135F5D593FEDA3B098F6FC196C /* Pods-insoperation-chaining-issues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDBF9AAFC80376468A16D89F320A2BA /* Build configuration list for PBXNativeTarget "Pods-insoperation-chaining-issues" */;
+			buildPhases = (
+				EFF48A81A6875A7CEE2D9394FAB4D7B4 /* Sources */,
+				9F93184E4A90893BDF36F3F7FDF565C6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				194C095307D83CA88BDF2ADB49F4B82D /* PBXTargetDependency */,
+			);
+			name = "Pods-insoperation-chaining-issues";
+			productName = "Pods-insoperation-chaining-issues";
+			productReference = 0043C222D3FB10AA4D847488E7316624 /* libPods-insoperation-chaining-issues.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 946605E00F4CC40AD200CCE711D6B6DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				487D4A2C1C013454987D6CEA82DD3657 /* INSOperationsKit */,
+				D61994135F5D593FEDA3B098F6FC196C /* Pods-insoperation-chaining-issues */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE1B5237365F82C22CD0FC126E4A681E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC98CB58B050565D138EAB8D0C0BDB18 /* INSBlockObserver.m in Sources */,
+				19278445C9E60C086C9670EA79ADBFEF /* INSBlockOperation.m in Sources */,
+				6D29FCF2DB611AF1D255B5232E01D2B9 /* INSChainCondition.m in Sources */,
+				6425018E35CD04B7C45E798B84FED1A0 /* INSChainOperation.m in Sources */,
+				B7C8882F719D0C45F0B222ABBCF28DEF /* INSDelayOperation.m in Sources */,
+				71D24EB5156700F3FF5F4CB356661802 /* INSExclusivityController.m in Sources */,
+				A042A0647E05DC43795106848B17B2D3 /* INSGroupOperation.m in Sources */,
+				0535E006FD561CE57EFFE21600DCF845 /* INSMutallyExclusiveCondition.m in Sources */,
+				F4994B2768BD577EE64D2D49E3F1298A /* INSNegatedCondition.m in Sources */,
+				222E2310D09AE496BECC58ED9CC00E5B /* INSNoCancelledDependenciesCondition.m in Sources */,
+				B5BCAD4FDED714163822999420F2A955 /* INSOperation.m in Sources */,
+				9DF2A3C30785082609824C8EFAE27466 /* INSOperationConditionResult.m in Sources */,
+				12F87D17E23E65D6BA028A98182254F8 /* INSOperationQueue.m in Sources */,
+				25D4D0ABCB000FF4134A873A92658913 /* INSOperationsKit-dummy.m in Sources */,
+				C2EE86B28A4B03FFC43D1BA7710B4C2A /* INSPhotosLibraryAccessCondition.m in Sources */,
+				B58497ACB186DEA31FF60DE34569FA5E /* INSPhotosLibraryAccessOperation.m in Sources */,
+				BE1C161612C0D845ABAB0DFE5A1F7C5A /* INSReachabilityCondition.m in Sources */,
+				7B4BC1AEC67DD105C1838BC13BDBD509 /* INSReachabilityManager.m in Sources */,
+				6DFFBAF0C39E17BE58833015CFE6F497 /* INSSilientCondition.m in Sources */,
+				B66C7FDF39B59C8C2C54EE946E721BAC /* INSTimeoutObserver.m in Sources */,
+				3848B073218466B9A82C4C6D4662D810 /* INSURLSessionTaskOperation.m in Sources */,
+				F8FFCEC00261DCB8858702119329331E /* NSError+INSOperationKit.m in Sources */,
+				65E58CBBD143F43D5F9AC886D5EB1C2E /* NSOperation+INSOperationKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF48A81A6875A7CEE2D9394FAB4D7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EB11BE7EA045C8A7546214CB053B07 /* Pods-insoperation-chaining-issues-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		194C095307D83CA88BDF2ADB49F4B82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = INSOperationsKit;
+			target = 487D4A2C1C013454987D6CEA82DD3657 /* INSOperationsKit */;
+			targetProxy = EBEC11FE501319CD1AE385EF0C288755 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16D6BF596FE428AEE2D7AEC0B4537542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079DD63823E318AA9E8B389FD30847F8 /* INSOperationsKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INSOperationsKit/INSOperationsKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D55E1C7DA2AD9190133DAF1C8BED963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079DD63823E318AA9E8B389FD30847F8 /* INSOperationsKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INSOperationsKit/INSOperationsKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		70ED7BA863FEDDFCA6088A0E04B5409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ECA21A3F2904A3C0A23B926E4A14DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2607A3386BBF4424E549DCB9A247A32E /* Pods-insoperation-chaining-issues.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E1B685D9073CDF53C548503CD4FD8B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F95FFE29776CEE266630EF942A01C1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49595395A51A2EECDD27F9B144A5140 /* Pods-insoperation-chaining-issues.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B685D9073CDF53C548503CD4FD8B53 /* Debug */,
+				70ED7BA863FEDDFCA6088A0E04B5409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305E8390679998375684CAB3A9FABD52 /* Build configuration list for PBXNativeTarget "INSOperationsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D6BF596FE428AEE2D7AEC0B4537542 /* Debug */,
+				4D55E1C7DA2AD9190133DAF1C8BED963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDBF9AAFC80376468A16D89F320A2BA /* Build configuration list for PBXNativeTarget "Pods-insoperation-chaining-issues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECA21A3F2904A3C0A23B926E4A14DF1 /* Debug */,
+				F95FFE29776CEE266630EF942A01C1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

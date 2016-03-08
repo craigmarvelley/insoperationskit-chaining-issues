@@ -1,0 +1,12 @@
+PODS:
+  - INSOperationsKit (1.1.4)
+
+DEPENDENCIES:
+  - INSOperationsKit (~> 1.1.4)
+
+SPEC CHECKSUMS:
+  INSOperationsKit: 11ee1b7ff53f263d8c876076fb46fa0520f8c4b2
+
+PODFILE CHECKSUM: 885fbd759feba7f0e0e66966a1c96c86aa93cae2
+
+COCOAPODS: 1.0.0.beta.4
